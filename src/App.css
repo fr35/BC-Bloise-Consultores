@@ -1,24 +1,35 @@
 .Center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .around {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+
+.header {
+	background: rgba(0,0,0,0.9);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+
 
 
 .navbar {
-  display: flex;
-  padding-top: 2vh;
-  align-items: center;
+    display: flex;
+    padding-top: 2vh;
+    align-items: center;
 }
 .background {
 	background-image: url(https://i.pinimg.com/originals/ae/1f/41/ae1f41480e0e86ff2056edc6b707d960.jpg);

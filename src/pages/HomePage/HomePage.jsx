@@ -1,12 +1,13 @@
 import Background from "../../components/Background/Background"
 import HomeSection from "../../components/HomeSection/HomeSection"
+import Navbar from "../../components/NavBar/Navbar"
 
 export default function HomePage() {
-    const main = {marginBottom: '500px'}
     return (
-        <main style={main}>
-            <Background/>
-            <HomeSection/>
-        </main>
+    <>
+        <Background/>
+        <Navbar/>
+        <HomeSection/>
+    </>
     )
 }

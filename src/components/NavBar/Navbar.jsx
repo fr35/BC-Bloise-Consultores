@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Navbar() {
     const header = {display: 'flex', alignItems: 'center', backgroundColor: 'black', width: '100%'}
     const container = {width: '100%', paddingRight: '2vw', paddingLeft: '2vw'}
@@ -12,10 +14,10 @@ export default function Navbar() {
                 </div>
                 <div className="center">
                     <ul className="around">
-                        <li className="center" style={li}>Inicio</li>
-                        <li className="center" style={li}>Productos</li>
-                        <li className="center" style={li}>Staff</li>
-                        <li className="center" style={li}>Clientes</li>
+                        <li className="center" style={li}><Link to={'/'}>Inicio</Link></li>
+                        <li className="center" style={li}><Link to={'/productos'}>Productos</Link></li>
+                        <li className="center" style={li}><Link to={'/staff'}>Staff</Link></li>
+                        <li className="center" style={li}><Link to={'/Clientes'}>Clientes</Link></li>
                         <li className="center" style={li}>Audio</li>
                     </ul>
                 </div>
